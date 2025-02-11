@@ -8,5 +8,5 @@ for(let i = 0; i < items.length; i++){
 
 //Alternate way to iterate through this array using for-in
 for(item in items){
-  console.log(item);
+  console.log(item[index]);
 }
