@@ -6,3 +6,16 @@ var array = ["This", "is", "my", "array", "being", "printed."];
 for(let i = 0; i < array.length; i++){
     console.log(array[i]);
 }
+
+
+var ages = [18, 23, 56, 24, 89, 42];
+
+//applies a function for each item in the array
+ages.forEach((age) =>{
+  
+  if(age > 18){
+    console.log(age);
+  }
+                
+});
+
