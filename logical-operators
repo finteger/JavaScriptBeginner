@@ -1,0 +1,22 @@
+  var age = 18;
+  
+  //or operator.  only one condition has to evaluate to true for the command block to fire off.
+  
+  if(age < 18 || age == 18){
+     document.getElementById('demo').textContent = 'true';
+  }
+  
+  //output: true
+  
+  
+  
+  var age = 18;
+  
+  //and operator.  both conditions must evaluate to true in order for the command block to execute.
+  
+  if(age < 18 && age == 18){
+     document.getElementById('demo').textContent = 'true';
+  }
+  
+  
+   //output: (nothing)
